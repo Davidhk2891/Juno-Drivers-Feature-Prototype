@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/first"
+        android:checkableBehavior="none">
+    <item
+        android:id="@+id/account_nav"
+        android:title="@string/nav_menu_account"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"/>
+    </group>
+
+    <group
+        android:id="@+id/second"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/earnings_nav"
+            android:title="@string/nav_menu_earnings"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"/>
+    </group>
+
+    <group
+        android:id="@+id/third"
+        android:checkableBehavior="none">
+    <item
+        android:id="@+id/promotions_nav"
+        android:title="@string/nav_menu_promotions"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"/>
+    </group>
+
+    <group
+        android:id="@+id/fourth"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/performance_nav"
+            android:title="@string/nav_menu_performance"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"/>
+    </group>
+
+    <group
+        android:id="@+id/fifth"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/docs_nav"
+            android:title="@string/nav_menu_docs"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"/>
+    </group>
+
+    <group
+        android:id="@+id/sixth"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/settings_nav"
+            android:title="@string/nav_menu_settings"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"/>
+    </group>
+
+</menu>

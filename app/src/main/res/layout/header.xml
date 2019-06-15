@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/headerRelative"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="7dp">
+
+    <ImageView
+        android:id="@+id/userProfilePics"
+        android:src="@drawable/blankmanfinal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:id="@+id/userProfDetailedInfo"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/userProfilePics"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/userProfileUsername"
+            android:text="@string/driver_hey"
+            android:textColor="@color/light_grey"
+            android:textAlignment="center"
+            android:layout_marginTop="6dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/userProfileRating"
+            android:text="@string/driver_rating"
+            android:layout_below="@+id/userProfileUsername"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/juno_gold"
+            android:textAlignment="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="12dp"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/star"
+            android:src="@drawable/star"
+            android:layout_toEndOf="@+id/userProfileRating"
+            android:layout_alignTop="@+id/userProfileRating"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="3dp"
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Juno Driver Features Prototype</string>
+    <string name="title_activity_maps">Juno Driver Features Prototype</string>
+
+    <!--Nav Menu-->
+    <string name="nav_menu_account">Account</string>
+    <string name="nav_menu_earnings">Earnings</string>
+    <string name="nav_menu_promotions">Promotions</string>
+    <string name="nav_menu_performance">Performance</string>
+    <string name="nav_menu_settings">Settings</string>
+    <string name="nav_menu_docs">My documents</string>
+    <string name="driver_name">Armindeep Singh</string>
+    <string name="driver_hey">Hey, Armindeep</string>
+    <string name="driver_rating">4.99</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!--////////-->
+
+    <!--Documents-->
+    <string name="documents_expiredDocs">Expired Documents</string>
+    <string name="documents_upToDateDocs">Up-to-date Documents</string>
+    <string name="document_fhvLicense">FHV License</string>
+    <string name="document_vehicleRegis">Vehicle Registration</string>
+    <string name="document_certificateOfLia">Cert. of liability insurance</string>
+    <string name="document_dmvLicense">DMV License</string>
+    <string name="document_tlcLicense">TLC License</string>
+    <string name="document_bankProof">Bank Proof</string>
+    <string name="document_directDeposit">Direct Deposit Form</string>
+    <string name="date1">Expired 06/02/2019</string>
+    <string name="date2">Expired 05/24/2019</string>
+    <string name="date3">Expires 04/12/2022</string>
+    <string name="date4">Expires 08/31/2020</string>
+    <string name="date5">Expires 12/31/2019</string>
+    <!--/////////-->
+
+    <!--Documents Alert Dialog-->
+    <string name="document_actions_seeExample">See Example</string>
+    <string name="document_actions_takePicture">Take Picture</string>
+    <string name="document_actions_chooseFrom">Choose From Gallery</string>
+    <string-array name="document_actions">
+        <item>See Example</item>
+        <item>Take Picture</item>
+        <item>Choose From Gallery</item>
+    </string-array>
+    <!--//////////////////////-->
+
+</resources>
